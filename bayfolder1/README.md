@@ -10,6 +10,10 @@ The goal is to model housing prices, visualize data, and compare models using po
   - Histograms for all numeric variables  
   - Correlation analysis with price  
 
+   ### Correlation Plots
+
+![Correlation with Price](../plots/correlation_with_price.png)
+![Pairwise Correlations Histogram](../plots/pairwise_correlations_hist.png)
 - **Data Preparation**  
   - Log-transform of skewed variables (`price`, `sqft_living`, etc.)  
   - Scaling predictors for regression  
@@ -28,19 +32,31 @@ The goal is to model housing prices, visualize data, and compare models using po
 ---
 ## 📊 Key Outputs
 
-### Histograms
-![Price histogram](plots/price.png)
-![Sqft living histogram](plots/sqft_living.png)
+### Correlation Plots
 
-### Correlations
-![Correlation with price](plots/correlation_with_price.png)
+![Correlation with Price](../plots/correlation_with_price.png)
+![Pairwise Correlations Histogram](../plots/pairwise_correlations_hist.png)
 
 ### Posterior Predictive Checks
-Model 1:
-![PPC Model 1](plots/ppc_model1_density.png)
 
-Model 2:
-![PPC Model 2](plots/ppc_model2_density.png)
+#### Model 1
+![PPC Density Model 1](../plots/ppc_model1_density.png)
+![PPC Histogram Model 1](../plots/ppc_model1_hist.png)
+
+#### Model 2
+![PPC Density Model 2](../plots/ppc_model2_density.png)
+![PPC Histogram Model 2](../plots/ppc_model2_hist.png)
+
+
+### Trace Plots
+
+![Trace Model 1](../plots/trace_model1.png)
+![Trace Model 2](../plots/trace_model2.png)
+
+### DIC Table
+
+![DIC Table](../plots/dic_table.png)
+
 
 ## 🚀 How to Run
 ```bash
