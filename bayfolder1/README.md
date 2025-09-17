@@ -53,9 +53,7 @@ The goal is to model housing prices, visualize data, and compare models using po
 ![Trace Model 1](../plots/trace_model1.png)
 ![Trace Model 2](../plots/trace_model2.png)
 
-### DIC Table
 
-![DIC Table](../plots/dic_table.png)
 
 
 ## 🚀 How to Run
